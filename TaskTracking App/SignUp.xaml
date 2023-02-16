@@ -1,0 +1,170 @@
+﻿<Page x:Class="TaskTracking_App.SignUp"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TaskTracking_App"
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="980"
+      Title="SignUp">
+    <Page.Resources>
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="\Images\SignBg.png"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="37"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="23"/>
+            <ColumnDefinition Width="635"/>
+            <ColumnDefinition Width="322"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="MainSignUpLabel"
+               Content="Sign up"
+               Foreground="White" 
+               FontSize="20" 
+               FontWeight="Medium"
+               Grid.Row="1"
+               Grid.Column="1"
+               HorizontalAlignment="Center"
+               Width="80" 
+               Margin="0,0,166,0">
+        </Label>
+
+        <TextBox x:Name="username" 
+                 Grid.Row="3"
+                 Grid.Column="1"
+                 Width="240" 
+                 Background="Transparent" 
+                 Foreground="White" 
+                 IsReadOnly="False" 
+                 FontSize="17" 
+                 BorderBrush="White" 
+                 BorderThickness="2" 
+                 HorizontalAlignment="Center">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border CornerRadius="5" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}">
+                                    <ScrollViewer x:Name="PART_ContentHost" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <TextBox x:Name="email" 
+                 Grid.Row="5" 
+                 Grid.Column="1"
+                 Width="240" 
+                 Background="Transparent" 
+                 Foreground="White" 
+                 IsReadOnly="False" 
+                 FontSize="17" 
+                 BorderBrush="White" 
+                 BorderThickness="2"
+                 HorizontalAlignment="Center">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border CornerRadius="5" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}">
+                                    <ScrollViewer x:Name="PART_ContentHost" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <TextBox x:Name="password" 
+                 Grid.Row="7" 
+                 Grid.Column="1"
+                 Width="240" 
+                 Background="Transparent" 
+                 Foreground="White" 
+                 IsReadOnly="False" 
+                 FontSize="17" 
+                 BorderBrush="White" 
+                 BorderThickness="2"
+                 HorizontalAlignment="Center">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TextBox">
+                                <Border CornerRadius="5" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}">
+                                    <ScrollViewer x:Name="PART_ContentHost" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <Button x:Name="Signinbutton" 
+                Content="Sign up"
+                Click="TrySignUp"
+                FontFamily="Arial"
+                Foreground="#f96389"
+                Style="{StaticResource RoundedButtonStyle}"
+                Grid.Row="9" 
+                Grid.Column="1"
+                Width="66" 
+                HorizontalAlignment="Center" 
+                Background="Transparent" 
+                BorderBrush="#f96389"
+                BorderThickness="2"
+                Cursor="Hand">
+        </Button>
+
+        <Button x:Name="GoBackToStart" 
+                Content="Go Back"
+                Style="{StaticResource RoundedButtonStyle}"
+                Grid.Row="11" 
+                Grid.Column="1"
+                Click="SwitchToStart"
+                Width="80" 
+                FontSize="14" 
+                HorizontalAlignment="Center" 
+                Margin="0,0,190,0" 
+                Background="Transparent" 
+                Foreground="White" 
+                BorderThickness="0"
+                Cursor="Hand">
+        </Button>
+
+    </Grid>
+</Page>

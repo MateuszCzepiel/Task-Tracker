@@ -1,0 +1,57 @@
+﻿<Window x:Class="TaskTracking_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskTracking_App"
+        mc:Ignorable="d"
+        Height="565" Width="980" ResizeMode="NoResize"
+        Background="Transparent" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    
+    <Window.Resources>
+        <Style TargetType="Frame">
+            <Setter Property="NavigationUIVisibility" Value="Hidden"/>
+        </Style>
+
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Border BorderThickness="1" BorderBrush="White" CornerRadius="20">
+        <Grid>
+            <Border x:Name="dragTab" 
+                Background="#120700" 
+                MouseDown="Border_MouseDown" 
+                CornerRadius="20">
+                <Button HorizontalAlignment="Right" 
+                    Style="{StaticResource RoundedButtonStyle}"
+                    VerticalAlignment="Top" 
+                    Margin="0,6,20,0" 
+                    Click="Button_Click" 
+                    Background="Transparent" 
+                    BorderThickness="0" 
+                    Cursor="Hand">
+                    <Image Source="\Images\Cross.png" Width="10" Height="10"/>
+                </Button>
+            </Border>
+
+            <Border Height="540" 
+                VerticalAlignment="Bottom" 
+                CornerRadius="0,0,20,20">
+                <Grid>
+                    <Frame x:Name="MainFrame" 
+                       Background="Transparent" 
+                       NavigationUIVisibility="Hidden"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

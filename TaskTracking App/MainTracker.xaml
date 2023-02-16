@@ -1,0 +1,179 @@
+﻿<Page x:Class="TaskTracking_App.MainTracker"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TaskTracking_App"
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="980"
+      Title="MainTracker">
+    <Page.Resources>
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="8" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Border BorderThickness="1" BorderBrush="White" CornerRadius="0,0,20,20">
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="\Images\MainTrackerBg.png"/>
+            </Grid.Background>
+            <Label x:Name="Errors" Foreground="Red" HorizontalAlignment="Center"/>
+            <ScrollViewer HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Width="155"
+                          Height="440"
+                          Margin="17,13,0,0"
+                          HorizontalScrollBarVisibility="Hidden"
+                          VerticalScrollBarVisibility="Hidden">
+                <Grid VerticalAlignment="Stretch">
+                    <StackPanel x:Name="ProjectsPanel"
+                                HorizontalAlignment="Left"
+                                VerticalAlignment="Top"
+                                Width="154"
+                                Height="Auto">
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+            <ScrollViewer HorizontalAlignment="Left"
+                          VerticalAlignment="Top"
+                          Width="690"
+                          Height="364"
+                          Margin="240,103,0,0"
+                          HorizontalScrollBarVisibility="Hidden"
+                          VerticalScrollBarVisibility="Hidden">
+                <Grid VerticalAlignment="Stretch">
+                    <StackPanel x:Name="TasksPanel"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Top"
+                                Height="Auto">
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+            <Button x:Name="AddTaskButton"
+                    Click="AddNewTask"
+                    Width="24"
+                    Height="24"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Margin="0,30,35,0"
+                    Cursor="Hand"
+                    Style="{StaticResource RoundedButtonStyle}">
+                <Image Source="\Images\Add.png"/>
+            </Button>
+            <Button x:Name="NewProject"
+                    Click="MakeNewProject"
+                    Width="21"
+                    Height="21"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Bottom"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Margin="165,0,0,42"
+                    Cursor="Hand"
+                    Style="{StaticResource RoundedButtonStyle}">
+                <Image Source="\Images\Add.png"/>
+            </Button>
+            <Button x:Name="DeleteProjectButton"
+                    Click="DeleteProjectButtonClicked"
+                    Width="20"
+                    Height="20"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Margin="0,32,510,0"
+                    Cursor="Hand"
+                    Style="{StaticResource RoundedButtonStyle}">
+                <Image Source="\Images\Delete.png"/>
+            </Button>
+            <Button x:Name="LogOutButton"
+                    Click="LogOut"
+                    Width="27"
+                    Height="27"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Bottom"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Margin="930,0,0,6"
+                    Cursor="Hand"
+                    Style="{StaticResource RoundedButtonStyle}">
+                <Image Source="\Images\SignOut.png"/>
+            </Button>
+            <Button x:Name="DeleteAccountButton"
+                    Click="DeleteAccountButtonClicked"
+                    Width="15"
+                    Height="15"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Bottom"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Margin="12,0,0,12"
+                    Cursor="Hand"
+                    Style="{StaticResource RoundedButtonStyle}">
+                <Image Source="\Images\Delete.png"/>
+            </Button>
+            <Label x:Name="UsernameDisplay"
+                   FontSize="20"
+                   HorizontalContentAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Bottom"
+                   Height="36"
+                   Width="782"
+                   Margin="40,0,0,4"
+                   Foreground="White">
+            </Label>
+            <Label x:Name="Tasks"
+                   Content="Tasks:"
+                   FontFamily="Arial"
+                   FontSize="19"
+                   HorizontalContentAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Height="43"
+                   Width="175"
+                   Margin="240,67,0,0"
+                   Foreground="White">
+            </Label>
+            <Label x:Name="ProjectDisplay"
+                   FontSize="19"
+                   HorizontalContentAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Height="43"
+                   Width="175"
+                   Margin="248,24,0,0"
+                   Foreground="White">
+            </Label>
+            <Label x:Name="CreateProject"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Bottom"
+                   Margin="0,0,0,59"
+                   FontSize="11"
+                   Foreground="White">
+                Create Project:
+            </Label>
+            <TextBox x:Name="NewProjectName"
+                     Width="155"
+                     Height="21"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Bottom"
+                     Margin="5,0,0,42"
+                     Background="Transparent"
+                     Foreground="White"
+                     BorderBrush="White"
+                     CaretBrush="White">
+            </TextBox>
+        </Grid>
+    </Border>
+
+</Page>

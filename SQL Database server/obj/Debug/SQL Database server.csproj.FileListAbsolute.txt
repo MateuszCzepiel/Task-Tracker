@@ -1,0 +1,66 @@
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\SQL Database server.exe.config
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\SQL Database server.exe
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\SQL Database server.pdb
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\EntityFramework.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Buffers.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Data.SQLite.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Memory.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\websocket-sharp-core.dll
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\EntityFramework.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Buffers.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Data.SQLite.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Memory.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Matt\Documents\SQL Database server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Matt\Documents\SQL Database server\obj\Debug\SQL Database server.csproj.AssemblyReference.cache
+C:\Users\Matt\Documents\SQL Database server\obj\Debug\SQL Database server.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matt\Documents\SQL Database server\obj\Debug\SQL Database server.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Documents\SQL Database server\obj\Debug\SQL Database server.csproj.CopyComplete
+C:\Users\Matt\Documents\SQL Database server\obj\Debug\SQL Database server.exe
+C:\Users\Matt\Documents\SQL Database server\obj\Debug\SQL Database server.pdb
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\SQL Database server.exe.config
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\SQL Database server.exe
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\SQL Database server.pdb
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\EntityFramework.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Buffers.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Data.SQLite.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Memory.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\websocket-sharp-core.dll
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\EntityFramework.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Buffers.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Data.SQLite.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Memory.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\obj\Debug\SQL Database server.csproj.AssemblyReference.cache
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\obj\Debug\SQL Database server.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\obj\Debug\SQL Database server.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\obj\Debug\SQL Database server.csproj.CopyComplete
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\obj\Debug\SQL Database server.exe
+C:\Users\Matt\Documents\PORTFOLIO\TaskTracking C#\SQL Database server\obj\Debug\SQL Database server.pdb
